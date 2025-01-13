@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100..700;1,100..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+ 
+:root{
+    --background-color: #222;
+    --btn-color: #fff;
+    --btn-text-color: #222;
+    --project-card-bg: #fff;
+    --text-color: #fff;
+    --form-text-color: #fff;
+    --footer-text-color: #bbb; 
+}
+
+.mainContainer{
+    width: 800px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .mainContainer section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   
+  }
+  .mainContainer section h1{
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  .mainContainer section h3{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  .icons a img{
+    width: 2rem;
+    margin: 0 0.5rem;
+  }
+  .summary{
+    width: 32ch;
+  }
+  .summary p{
+    font-size: 1.2rem; 
+    font-weight: 300;
+    line-height: 1.5;
+  }
+  .resume button{
+    font-family: "Poppins", serif;
+    font-weight: 800;
+    background-color: var(--btn-color);
+    color: var(--btn-text-color);
+    padding: .8rem 1.5rem;
+    border: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+    cursor: pointer;
+    box-shadow:0,0,10px rgba(0,0,0,0.2);
+  }
+  .profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .profile img{
+    width: 400px;
+  }
+  @media (max-width: 768px) {
+    .mainContainer {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+        margin-top: 2rem;
+    }
+    .profile img{
+      width: 350px;
+    }
+    .profile{
+        order: -1;
+    }
+  }
+  @media (max-width: 320px) {
+    .profile{
+        padding: 0;
+        width: 100%;
+    }
+    .profile img{
+      width: 300px;
+      text-align: center;  
+    }
+  }
+
+  
+  
+ 
+    
+  
+  
+
+  
+

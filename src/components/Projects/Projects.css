@@ -1,0 +1,37 @@
+.mainContainer-projects{
+   margin-top: 3rem;
+   text-align: center;
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+.mainContainer-projects h1{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+
+}
+ .flexBox {
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   flex-wrap: wrap;
+}
+.flexItem{
+    width: 300px;
+}
+.flexItem img{
+    border-radius: 5px;
+    margin-bottom: 1rem;
+}
+.flexItem h2{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 0; 
+    margin-bottom: 0; 
+}
+.flexItem p{
+    margin-top: 0;
+    margin-bottom: 2rem;
+}
+

@@ -1,0 +1,61 @@
+.mainContainer-contact{
+    margin-top: 3rem;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.mainContainer-contact h1{
+    font-size: 2.5rem;
+    margin-bottom: 2rem;
+}
+.mainContainer-contact form{
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+#nameInput,#emailInput,#messageInput {
+    font-family: "Poppins", serif;
+    background-color: transparent;
+    display: block;
+    width: 100%;
+    padding: 1rem;
+    margin: 1rem;
+    border: 1px solid var(--text-color);
+    outline: none;
+    border-radius: 10px;
+}
+.mainContainer-contact form button{
+    font-family: "Poppins", serif;
+    font-weight: 600;
+    background-color: var(--btn-color);
+    color: var(--btn-text-color);
+    padding: .8rem 2rem;
+    border: none;
+    border-radius: 10px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+    box-shadow:0,0,10px rgba(0,0,0,0.2);
+}
+
+@media screen and (max-width: 768px){
+    .mainContainer-contact form{
+        width: 400px;
+    }
+    #nameInput,#emailInput,#messageInput {
+        width: 90%;
+    } 
+}
+@media screen and (max-width: 405px){
+    .mainContainer-contact form{
+        width: 250px;
+    }
+    #nameInput,#emailInput,#messageInput {
+        width: 90%;
+    } 
+}
+
