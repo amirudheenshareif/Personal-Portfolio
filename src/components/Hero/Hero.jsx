@@ -3,6 +3,7 @@ import profile from '../../assets/hero-img.png';
 import gitubIcon from '../../assets/github-dark.svg';
 import linkedInIcon from '../../assets/linkedin-dark.svg';
 import './Hero.css';
+import { colors } from '@mui/material';
 
 
 export const Hero = () => {
@@ -14,7 +15,7 @@ export const Hero = () => {
                     <h3>FRONTEND DEVELOPER</h3>
                     <div className="icons">
                         <a href="https://github.com/amirudheenshareif">
-                            <img src={gitubIcon} alt="" />
+                            <img src={gitubIcon}  alt="" />
                             </a>
                             <a href="##">
                                 <img src={linkedInIcon} alt="" />

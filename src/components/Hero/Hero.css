@@ -47,9 +47,9 @@
   }
   .resume button{
     font-family: "Poppins", serif;
-    font-weight: 800;
-    background-color: var(--btn-color);
-    color: var(--btn-text-color);
+    font-weight: 600;
+    background-color: #2563EB;
+    color: whitesmoke;
     padding: .8rem 1.5rem;
     border: none;
     border-radius: 5px;

@@ -3,13 +3,13 @@
 
 
 :root{
-    --background-color: #222;
-    --text-color: #fff;  
+    --background-color: #F8FAFC;
+    --text-color: #1F2937 ;  
 }
 body{
    font-family: "Poppins", serif;
-   background-color: var(--background-color);
-   color: var(--text-color);
+   background-color: #F8FAFC;
+   color: #1F2937;
    /* display: flex;
    justify-content: center;
    align-items: center; */
