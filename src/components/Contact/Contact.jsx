@@ -26,9 +26,10 @@ export const Contact = () => {
           fontSize: "16px",
           border: "none",
           borderRadius: "5px",
+          marginBottom: "15px",
+          boxShadow: "0 4px 6px rgba(0, 0, 0, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08)",
           cursor: "pointer",
-          marginBottom: "10px",
-          backgroundColor: "#3498db", 
+          background: "linear-gradient(90deg, #667EEA, #A67D8D)",
           color: "#fff",
         }}
       >

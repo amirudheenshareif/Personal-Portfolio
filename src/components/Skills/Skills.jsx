@@ -2,7 +2,7 @@ import React from 'react';
 import './Skills.css';
 import { useState } from 'react';
 import '@fortawesome/fontawesome-free/css/all.min.css';
-
+import { motion } from 'framer-motion';
 
 
 
@@ -49,25 +49,53 @@ const Skills = () => {
     <div className="left">
   <h3>Categories</h3>
   
-  <div onClick={() => { setActiveArray(newArray[0]); setSkillHeading("Frontend skills"); }}>
-    <i className="fas fa-code"></i>
-    <span>Frontend</span>
-  </div>
-  
-  <div onClick={() => { setActiveArray(newArray[1]); setSkillHeading("Backend skills"); }}>
-    <i className="fas fa-server"></i>
-    <span>Backend</span>
-  </div>
-  
-  <div onClick={() => { setActiveArray(newArray[2]); setSkillHeading("Version Control"); }}>
-    <i className="fas fa-code-branch"></i>
-    <span>Version Control</span>
-  </div>
-  
-  <div onClick={() => { setActiveArray(newArray[3]); setSkillHeading("Soft Skills"); }}>
-    <i className="fas fa-user-friends"></i>
-    <span>Soft Skills</span>
-  </div>
+  <motion.div
+        onClick={() => {
+          setActiveArray(newArray[0]);
+          setSkillHeading("Frontend skills");
+        }}
+        whileHover={{ scale: 1.05 }}
+        whileTap={{ scale: 0.9 }}
+      >
+        <i className="fas fa-code"></i>
+        <span>Frontend</span>
+      </motion.div>
+
+      <motion.div
+        onClick={() => {
+          setActiveArray(newArray[1]);
+          setSkillHeading("Backend skills");
+        }}
+        whileHover={{ scale: 1.05}}
+        whileTap={{ scale: 0.9 }}
+      >
+        <i className="fas fa-server"></i>
+        <span>Backend</span>
+      </motion.div>
+
+      <motion.div
+        onClick={() => {
+          setActiveArray(newArray[2]);
+          setSkillHeading("Version Control");
+        }}
+        whileHover={{ scale: 1.05}}
+        whileTap={{ scale:0.9 }}
+      >
+        <i className="fas fa-code-branch"></i>
+        <span>Version Control</span>
+      </motion.div>
+
+      <motion.div
+        onClick={() => {
+          setActiveArray(newArray[3]);
+          setSkillHeading("Soft Skills");
+        }}
+        whileHover={{ scale: 1.05}}
+        whileTap={{ scale: 0.9 }}
+      >
+        <i className="fas fa-user-friends"></i>
+        <span>Soft Skills</span>
+      </motion.div>
 </div>
 
 
@@ -79,7 +107,7 @@ const Skills = () => {
                   <div className="tech">
                   <div className="name">
                   <i id='icon' className={sk.icon}></i>
-                  <span>{sk.skill}</span>
+                  <span id='skillName'>{sk.skill}</span>
                   </div>
                   <span id='width'>{sk.width}</span>
                   </div>

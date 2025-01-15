@@ -5,6 +5,7 @@ import linkedInIcon from '../../assets/linkedin-dark.svg';
 import './Hero.css';
 import { colors } from '@mui/material';
 import { motion } from 'framer-motion';
+import { linearGradient } from 'motion/react-client';
 
 
 export const Hero = () => {
@@ -41,9 +42,10 @@ export const Hero = () => {
           padding: "10px 20px",
           fontSize: "16px",
           border: "none",
-          borderRadius: "5px",
+          borderRadius: "8px",
+          boxShadow: "0 4px 6px rgba(0, 0, 0, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08)",
           cursor: "pointer",
-          backgroundColor: "#3498db", 
+          background: "linear-gradient(90deg, #667EEA, #A67D8D)",
           color: "#fff", 
         }}
       >

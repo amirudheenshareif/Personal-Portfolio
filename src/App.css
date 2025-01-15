@@ -8,14 +8,17 @@
 }
 body{
    font-family: "Poppins", serif;
-   background-color: #F8FAFC;
-   color: #1F2937;
+   background: linear-gradient(135deg, #5A67D8,#38B2AC);
+   color: #1A202C;
+   margin: 0;
+   padding: 0;
    /* display: flex;
    justify-content: center;
    align-items: center; */
    height: 100vh;
 }
 #root{
+    background: linear-gradient(135deg, #5A67D8,#38B2AC);
     display: flex;
     flex-direction: column;
     justify-content: center;
