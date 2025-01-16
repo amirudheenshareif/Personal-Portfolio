@@ -1,11 +1,7 @@
 import React from 'react';
-import profile from '../../assets/hero-img.png';
-import gitubIcon from '../../assets/github-dark.svg';
-import linkedInIcon from '../../assets/linkedin-dark.svg';
 import './Hero.css';
-import { colors } from '@mui/material';
 import { motion } from 'framer-motion';
-import { linearGradient } from 'motion/react-client';
+
 
 
 export const Hero = () => {
@@ -17,10 +13,10 @@ export const Hero = () => {
                     <h3>FRONTEND DEVELOPER</h3>
                     <div className="icons">
                         <a href="https://github.com/amirudheenshareif">
-                            <img src={gitubIcon}  alt="" />
+                            <img src="/assets/github-dark.svg"  alt="GithubIcon" />
                             </a>
                             <a href="##">
-                                <img src={linkedInIcon} alt="" />
+                                <img src="/assets/linkedin-dark.svg"alt="Linkedin" />
                                 </a>        
                     </div>
                     <div className="summary">
@@ -54,7 +50,7 @@ export const Hero = () => {
     
                 </section>
                 <div className="profile">
-                    <img src={profile} alt="" />
+                    <img src="/assets/hero-img.png" alt="Profile" />
                 </div>
             </div>
     
