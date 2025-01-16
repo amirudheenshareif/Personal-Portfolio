@@ -13,10 +13,10 @@ export const Hero = () => {
                     <h3>FRONTEND DEVELOPER</h3>
                     <div className="icons">
                         <a href="https://github.com/amirudheenshareif">
-                            <img src="/assets/github-dark.svg"  alt="GithubIcon" />
+                        <img src={`${process.env.PUBLIC_URL}/assets/github-dark.svg`} alt="GitHub Icon" />
                             </a>
                             <a href="##">
-                                <img src="/assets/linkedin-dark.svg"alt="Linkedin" />
+                            <img src={`${process.env.PUBLIC_URL}/assets/linkedin-dark.svg`} alt="LinkedIn Icon" />
                                 </a>        
                     </div>
                     <div className="summary">
@@ -50,7 +50,7 @@ export const Hero = () => {
     
                 </section>
                 <div className="profile">
-                    <img src="/assets/hero-img.png" alt="Profile" />
+                <img src={`${process.env.PUBLIC_URL}/assets/hero-img.png`} alt="Profile" />
                 </div>
             </div>
     
