@@ -1,7 +1,7 @@
 import React from 'react';
 import './Hero.css';
 import { motion } from 'framer-motion';
-import {profile} from '../../assets/hero-img.png'
+import profile from '../../assets/hero-img.png'
 import githubIcon from '../../assets/github-dark.svg'
 import linkedinIcon from '../../assets/linkedin-dark.svg'
 
