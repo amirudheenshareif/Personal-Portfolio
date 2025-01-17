@@ -1,6 +1,9 @@
 import React from 'react';
 import './Hero.css';
 import { motion } from 'framer-motion';
+import {profile} from '../../assets/hero-img.png'
+import {githubIcon} from '../../assets/github-dark.svg'
+import {linkedinIcon} from '../../assets/linkedin-dark.svg'
 
 
 const Hero = () => {
@@ -11,10 +14,10 @@ const Hero = () => {
         <h3>FRONTEND DEVELOPER</h3>
         <div className="icons">
           <a href="https://github.com/amirudheenshareif">
-            <img src="/assets/github-dark.svg" alt="GitHub Icon" />
+            <img src={githubIcon}alt="GitHub Icon" />
           </a>
           <a href="##">
-            <img src={`${process.env.PUBLIC_URL}assets/linkedin-dark.svg`} alt="LinkedIn Icon" />
+            <img src={linkedinIcon} alt="LinkedIn Icon" />
           </a>
         </div>
         <div className="summary">
@@ -48,7 +51,7 @@ const Hero = () => {
         </div>
       </section>
       <div className="profile">
-        <img src="/assets/hero-img.png" alt="Profile" />
+        <img src={profile} alt="Profile" />
       </div>
     </div>
   );
