@@ -4,14 +4,17 @@ h1{
 h3{
     font-weight: 500;
 }
+.left h3, .left span{
+  color: #E2E8F0;
+}
 .skills-container{
     width: 100%;
-
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
     margin: 2rem;
+    margin-top: 0;
 }
 .left,.right{
     display: flex;
@@ -70,6 +73,10 @@ h3{
   #skillName{
     color: #1c1c1e;
     font-weight: bold;
+    margin-left: 5px;
+  }
+  .active{
+    background: rgba(255, 255, 255, 0.2);
   }
   @keyframes grow {
     from {

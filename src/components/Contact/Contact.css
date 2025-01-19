@@ -19,15 +19,23 @@
 }
 #nameInput,#emailInput,#messageInput {
     font-family: "Poppins", serif;
-    background-color: transparent;
+    background: rgba(255, 255, 255, 0.1);
     display: block;
     width: 100%;
     padding: 1rem;
     margin: 1rem;
-    border: 1px solid #E2E8F0 ;
+    border: 1px solid rgba(255, 255, 255, 0.4); 
     outline: none;
     border-radius: 10px;
 }
+input::placeholder, textarea::placeholder{
+    color: rgba(255, 255, 255, 0.6);
+}
+#nameInput:focus,#emailInput:focus, #messageInput:focus {
+    border-color: #38B2AC; /* Focus border color */
+    background-color: rgba(255, 255, 255, 0.2); /* Slightly lighter background on focus */
+    outline: none; /* Remove default focus outline */
+  }
 /* .mainContainer-contact form button{
     font-family: "Poppins", serif;
     font-weight: 600;

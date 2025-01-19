@@ -41,6 +41,7 @@ const Skills = () => {
   const newArray = [frontend, backend, versionControl, softSkills];
   const[activeArray, setActiveArray] = useState(newArray[0]);
   const[skillHeading, setSkillHeading] = useState("Frontend Skills");
+  const[activeDiv, setActiveDiv] = useState("frontend");
 
     return (
     <>
@@ -53,9 +54,11 @@ const Skills = () => {
         onClick={() => {
           setActiveArray(newArray[0]);
           setSkillHeading("Frontend skills");
+          setActiveDiv("frontend");
         }}
         whileHover={{ scale: 1.05 }}
         whileTap={{ scale: 0.9 }}
+        className={activeDiv === "frontend" ? "active" : ""}
       >
         <i className="fas fa-code"></i>
         <span>Frontend</span>
@@ -65,9 +68,11 @@ const Skills = () => {
         onClick={() => {
           setActiveArray(newArray[1]);
           setSkillHeading("Backend skills");
+          setActiveDiv("backend");
         }}
         whileHover={{ scale: 1.05}}
         whileTap={{ scale: 0.9 }}
+        className={activeDiv === "backend" ? "active" : ""}
       >
         <i className="fas fa-server"></i>
         <span>Backend</span>
@@ -77,9 +82,11 @@ const Skills = () => {
         onClick={() => {
           setActiveArray(newArray[2]);
           setSkillHeading("Version Control");
+          setActiveDiv("versionControl");
         }}
         whileHover={{ scale: 1.05}}
         whileTap={{ scale:0.9 }}
+        className={activeDiv === "versionControl" ? "active" : ""}
       >
         <i className="fas fa-code-branch"></i>
         <span>Version Control</span>
@@ -89,9 +96,11 @@ const Skills = () => {
         onClick={() => {
           setActiveArray(newArray[3]);
           setSkillHeading("Soft Skills");
+          setActiveDiv("softSkills");
         }}
         whileHover={{ scale: 1.05}}
         whileTap={{ scale: 0.9 }}
+        className={activeDiv === "softSkills" ? "active" : ""}
       >
         <i className="fas fa-user-friends"></i>
         <span>Soft Skills</span>
