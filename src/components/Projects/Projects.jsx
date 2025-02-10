@@ -1,6 +1,8 @@
 import React from 'react'
 import './Projects.css'
 import { motion } from 'framer-motion';
+import githubIcon from '../../assets/github-dark.svg'
+import redirectIcon from '../../assets/maximize.png'
 
 const Projects = ({data=[]}) => {
     console.log(data);
@@ -11,8 +13,8 @@ const Projects = ({data=[]}) => {
         <div className="flexBox">
             {data.map((project,index)=>(
                 <div className="flexItem" key={index}>
-                       <motion.img
-                src="https://placehold.co/200x200" // Replace with project.image for dynamic images
+                       <motion.img className='projectImg'
+                src={project.imgLink} // Replace with project.image for dynamic images
                 alt={project.name}
                 // animate={{
                 //   scale: [1, 1.1, 1], // Keyframe animation: normal -> zoom -> normal
@@ -27,7 +29,10 @@ const Projects = ({data=[]}) => {
                 whileTap={{ scale: 0.8 }}
               />
                     <h2>{project.name}</h2>
-                    <p> {project.description}</p>
+                    <div className="iconWrapper">
+                      <a href={project.githubLink}><img src={githubIcon} alt="githubIcon" /></a>
+                      <a href={project.siteLink}><img src={redirectIcon} alt="redirectIcon" /></a>
+                    </div>
                 </div>
             ))}
         </div>

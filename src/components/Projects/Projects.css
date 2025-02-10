@@ -34,4 +34,24 @@
     margin-top: 0;
     margin-bottom: 2rem;
 }
+.iconWrapper img{
+    width: 25px;
+    border: 1px solid #38B2AC;
+    border-radius: 10px;
+    padding: 5px;
+}
+.iconWrapper a :hover{
+    background-color: #1e91f6;
+}
+.iconWrapper{
+    margin-top: 10px;
+    display: flex;  
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.projectImg{
+    width: 200px;
+    height:200px;  
+}
 
