@@ -52,6 +52,8 @@
 }
 .projectImg{
     width: 200px;
-    height:200px;  
+    height:200px; 
+    filter: grayscale(50%) opacity(60%);
+   
 }
 

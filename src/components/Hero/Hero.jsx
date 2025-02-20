@@ -11,19 +11,20 @@ const Hero = () => {
     <div className="mainContainer">
       <section>
         <h1>AMIRUDHEEN <br /> SHAREIF</h1>
-        <h3>FRONTEND DEVELOPER</h3>
+        <h3>FRONTEND ENGINEER</h3>
         <div className="icons">
           <a href="https://github.com/amirudheenshareif">
             <img src={githubIcon}alt="GitHub Icon" />
           </a>
-          <a href="##">
+          <a href="https://www.linkedin.com/in/amirudheen-shareif-k-585335256/">
             <img src={linkedinIcon} alt="LinkedIn Icon" />
           </a>
         </div>
         <div className="summary">
-          <p>With a passion for developing modern React web apps for commercial businesses.</p>
+          <p>Focused on developing high performance React web apps that drive business growth.</p>
         </div>
         <div className="resume">
+          <a href="https://rngfefhpsfpbbwcrfhze.supabase.co/storage/v1/object/public/resumes//AMIRUDHEEN%20SHAREIF-CV%20(3)%20(1).pdf">
           <motion.button
             whileHover={{
               scale: 1.2, // Increases size on hover
@@ -48,6 +49,8 @@ const Hero = () => {
           >
             Resume
           </motion.button>
+
+          </a>
         </div>
       </section>
       <div className="profile">

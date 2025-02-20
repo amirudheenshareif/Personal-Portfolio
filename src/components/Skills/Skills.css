@@ -1,114 +1,121 @@
 h1{
-    font-size: 2.5rem;
+  font-size: 2.5rem;
 }
 h3{
-    font-weight: 500;
+  font-weight: 500;
 }
 .left h3, .left span{
-  color: #E2E8F0;
+color: #E2E8F0;
 }
 .skills-container{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin: 2rem;
-    margin-top: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin: 2rem;
+  margin-top: 0;
 }
 .left,.right{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    gap: 10px;
-    flex-wrap: wrap;
-    margin: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  margin: 2rem;
 }
 .left div,.skill{
-    border: 1px solid #E2E8F0;
-    padding: 1.5rem 2rem;
-    border-radius: 10px;
-    font-family: "Poppins", serif;
-    font-weight: 500;
+  border: 1px solid #E2E8F0;
+  padding: 1.5rem 2rem;
+  border-radius: 10px;
+  font-family: "Poppins", serif;
+  font-weight: 500;
 }
 .left div{
-    display: flex;
-    align-items: center;
-    gap: 1rem;
-    padding: 2.25rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 2.25rem;
 }
 .skill{
-    min-width: 12rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    gap: 1rem;   
+  min-width: 12rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;   
 }
 .progress-bar {
-    width: 100%;
-    height: 8px;
-    background: transparent;
-    border-radius: 5px;
-    overflow: hidden;
-    animation: grow 2s ease-in-out;
+  width: 100%;
+  height: 8px;
+  background: transparent;
+  border-radius: 5px;
+  overflow: hidden;
+  animation: grow 2s ease-in-out;
+}
+.progress {
+  height: 100%;
+  background: linear-gradient(90deg, #A3DFF5, #68C7F3);
+  border-radius: 10px;
+  overflow: hidden;
+  border: 1px solid #C0E5F6;
+
+}
+.tech{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#icon{
+  margin-right: 5px;
+}
+#skillName{
+  color: #1c1c1e;
+  font-weight: bold;
+  margin-left: 5px;
+}
+.active{
+  background: rgba(255, 255, 255, 0.2);
+}
+@keyframes grow {
+  from {
+    width: 0;
+  }
+  to {
+    width: var(--width,80%);
+  }
+}
+
+@media (max-width: 768px) {
+  .skills-container{
+      flex-direction: column;
+      align-items: center;
+  }
+  .left,.right{
+      margin: 0;
+  }
+  .skill{
+      padding: 1rem;
+  }
+  .left div{
+    padding: 8px;
+  }
+  .left div{
+      padding: 1.5rem;
+  }
+  .progress-bar {
+      height: 5px;
   }
   .progress {
-    height: 100%;
-    background: linear-gradient(90deg, #A3DFF5, #68C7F3);
-    border-radius: 10px;
-    overflow: hidden;
-    border: 1px solid #C0E5F6;
+      border: 1px solid #C0E5F6;
+  }
+  
+}
 
-  }
-  .tech{
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  #icon{
-    margin-right: 5px;
-  }
-  #skillName{
-    color: #1c1c1e;
-    font-weight: bold;
-    margin-left: 5px;
-  }
-  .active{
-    background: rgba(255, 255, 255, 0.2);
-  }
-  @keyframes grow {
-    from {
-      width: 0;
-    }
-    to {
-      width: var(--width,80%);
-    }
-  }
 
-  @media (max-width: 768px) {
-    .skills-container{
-        flex-direction: column;
-        align-items: center;
-    }
-    .left,.right{
-        margin: 0;
-    }
-    .left div,.skill{
-        padding: 1rem;
-    }
-    .left div{
-        padding: 1.5rem;
-    }
-    .progress-bar {
-        height: 5px;
-    }
-    .progress {
-        border: 1px solid #C0E5F6;
-    }
-    
-  }
+
+
   
   
   

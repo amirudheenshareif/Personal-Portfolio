@@ -8,7 +8,7 @@ export const ProjectList = () => {
           name: 'Portfolio website',
           githubLink:"https://github.com/amirudheenshareif/Personal-Portfolio",
           siteLink:"https://amirudheenshareif.github.io/Personal-Portfolio/",
-          imgLink:"https://placehold.co/200x200" 
+          imgLink:"https://rngfefhpsfpbbwcrfhze.supabase.co/storage/v1/object/public/company-logo//Portfolio-bg.png" 
         },
         { 
           name: 'JobVerse',
@@ -16,13 +16,13 @@ export const ProjectList = () => {
           siteLink:"https://job-verse-dusky.vercel.app/",
           imgLink:"https://rngfefhpsfpbbwcrfhze.supabase.co/storage/v1/object/public/company-logo//landing-page-imgpng.png" 
         },
-        { name: 'DynamicWeather3',
-          githubLink:"", 
-          siteLink:"",
-          imgLink:"https://placehold.co/200x200"
+        { name: 'Weather Tracker',
+          githubLink:"https://github.com/amirudheenshareif/Dynamic-Weather-Tracker", 
+          siteLink:"https://dynamic-weather-tracker.vercel.app/",
+          imgLink:"https://rngfefhpsfpbbwcrfhze.supabase.co/storage/v1/object/public/company-logo//weather-app.png"
         },
         { 
-          name: 'DynamicWeather3',
+          name: 'Skill Swap (Under Development)',
           githubLink:"",
           siteLink:"",
           imgLink:"https://placehold.co/200x200" 

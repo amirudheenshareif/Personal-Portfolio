@@ -17,28 +17,28 @@ const Skills = () => {
   ];
   
   const backend = [
-    { skill: "Node.js", icon: "fab fa-node", width: "85%" },
-    { skill: "Express.js", icon: "fas fa-server", width: "80%" },
-    { skill: "MongoDB", icon: "fas fa-database", width: "75%" },
-    { skill: "REST APIs", icon: "fas fa-link", width: "70%" },
+    { skill: "SQL", icon: "fas fa-file-code", width: "55%" },
+    { skill: "Supabase", icon: "fas fa-database", width: "55%" },
+    { skill: "Clerk", icon: "fas fa-server", width: "50%" },
+    { skill: "REST APIs", icon: "fas fa-link", width: "60%" },
+  ];
+
+  const libraries = [
+    { skill: "Framer Motion", icon: "", width: "70%" },
+    { skill: "ShadCN", icon: "", width: "80%" },
+    { skill: "Tailwind CSS", icon: "", width: "80%" },
+    { skill: "Vite", icon: "", width: "75%" },
   ];
   
   const versionControl = [
-    { skill: "Git", icon: "fas fa-code-branch", width: "80%" },
-    { skill: "GitHub", icon: "fab fa-github", width: "85%" },
+    { skill: "Git", icon: "fas fa-code-branch", width: "70%" },
+    { skill: "GitHub", icon: "fab fa-github", width: "75%" },
     { skill: "Branching", icon: "fas fa-tree", width: "75%" },
     { skill: "Merging", icon: "fas fa-code-merge", width: "70%" },
   ];
   
-  const softSkills = [
-    { skill: "Communication", icon: "fas fa-comments", width: "90%" },
-    { skill: "Teamwork", icon: "fas fa-users", width: "85%" },
-    { skill: "Problem Solving", icon: "fas fa-lightbulb", width: "80%" },
-    { skill: "Adaptability", icon: "fas fa-sync-alt", width: "75%" },
-  ];
-  
-  
-  const newArray = [frontend, backend, versionControl, softSkills];
+
+  const newArray = [frontend, backend, libraries , versionControl];
   const[activeArray, setActiveArray] = useState(newArray[0]);
   const[skillHeading, setSkillHeading] = useState("Frontend Skills");
   const[activeDiv, setActiveDiv] = useState("frontend");
@@ -48,8 +48,8 @@ const Skills = () => {
     <h1>SKILLS</h1>
     <div className="skills-container">
     <div className="left">
-  <h3>Categories</h3>
-  
+    <h3>Categories</h3>
+    
   <motion.div
         onClick={() => {
           setActiveArray(newArray[0]);
@@ -81,6 +81,20 @@ const Skills = () => {
       <motion.div
         onClick={() => {
           setActiveArray(newArray[2]);
+          setSkillHeading("Libraries / Tools");
+          setActiveDiv("Lib/Tools");
+        }}
+        whileHover={{ scale: 1.05}}
+        whileTap={{ scale: 0.9 }}
+        className={activeDiv === "Lib/Tools" ? "active" : ""}
+      >
+        <i className="fas fa-user-friends"></i>
+        <span>Libraries / Tools</span>
+      </motion.div>
+
+      <motion.div
+        onClick={() => {
+          setActiveArray(newArray[3]);
           setSkillHeading("Version Control");
           setActiveDiv("versionControl");
         }}
@@ -91,26 +105,10 @@ const Skills = () => {
         <i className="fas fa-code-branch"></i>
         <span>Version Control</span>
       </motion.div>
-
-      <motion.div
-        onClick={() => {
-          setActiveArray(newArray[3]);
-          setSkillHeading("Soft Skills");
-          setActiveDiv("softSkills");
-        }}
-        whileHover={{ scale: 1.05}}
-        whileTap={{ scale: 0.9 }}
-        className={activeDiv === "softSkills" ? "active" : ""}
-      >
-        <i className="fas fa-user-friends"></i>
-        <span>Soft Skills</span>
-      </motion.div>
 </div>
 
-
-        <div className="right">
-          <h3>{skillHeading}</h3>
-      
+      <div className="right">
+        <h3>{skillHeading}</h3>
           {activeArray.map((sk,index)=>(
               <div key={index} className="skill">
                   <div className="tech">
