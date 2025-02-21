@@ -113,7 +113,10 @@ color: #E2E8F0;
 @media (max-width: 480px) { 
   .left div {
       padding: .8rem; /* Even smaller padding for very small screens */
-  } 
+  }
+  .skill{
+    padding: .6rem;
+  }
 }
 
 

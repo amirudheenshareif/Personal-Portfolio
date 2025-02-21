@@ -11,7 +11,7 @@ export const ProjectList = () => {
           imgLink:"https://rngfefhpsfpbbwcrfhze.supabase.co/storage/v1/object/public/company-logo//Portfolio-bg.png" 
         },
         { 
-          name: 'JobVerse',
+          name: 'Job Portal App',
           githubLink:"https://github.com/amirudheenshareif/JobVerse",
           siteLink:"https://job-verse-dusky.vercel.app/",
           imgLink:"https://rngfefhpsfpbbwcrfhze.supabase.co/storage/v1/object/public/company-logo//landing-page-imgpng.png" 
