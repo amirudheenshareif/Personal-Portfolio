@@ -5,10 +5,11 @@ export const Contact = () => {
   return (
     <div className='mainContainer-contact'>
         <h1>CONTACT</h1>
-        <form>
-            <input id='nameInput' type="text" placeholder='Name' />
-            <input type="email" id='emailInput' placeholder='Email' />
-            <textarea id='messageInput' placeholder='Message'  rows="10" ></textarea>
+        <form action="https://formsubmit.co/ameeraashique6@gmail.com" method="POST">
+            <input id='nameInput' name='name' type="text" placeholder='Name' />
+            <input type="email" name='email' id='emailInput' placeholder='Email' />
+            <textarea id='messageInput' name='message' placeholder='Message'  rows="10" ></textarea>
+            <input type="hidden" name="_captcha" value="false"/>
             {/* <button type="submit">Send</button> */}
             <motion.button
         whileHover={{
@@ -32,6 +33,7 @@ export const Contact = () => {
           background: "linear-gradient(90deg, #667EEA, #A67D8D)",
           color: "#fff",
         }}
+        type='submit'
       >
         Send
       </motion.button>
