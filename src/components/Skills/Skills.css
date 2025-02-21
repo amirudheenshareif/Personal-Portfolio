@@ -98,19 +98,22 @@ color: #E2E8F0;
   .skill{
       padding: 1rem;
   }
-  .left div{
+  /* .left div{
     padding: 8px;
-  }
-  .left div{
-      padding: 1.5rem;
-  }
+  } */
+ 
   .progress-bar {
       height: 5px;
   }
   .progress {
       border: 1px solid #C0E5F6;
-  }
-  
+  } 
+}
+
+@media (max-width: 480px) { 
+  .left div {
+      padding: .8rem; /* Even smaller padding for very small screens */
+  } 
 }
 
 
