@@ -16,16 +16,16 @@ export const ProjectList = () => {
           siteLink:"https://job-verse-dusky.vercel.app/",
           imgLink:"https://rngfefhpsfpbbwcrfhze.supabase.co/storage/v1/object/public/company-logo//landing-page-imgpng.png" 
         },
+        { 
+          name: 'AI - Data Query Dashboard',
+          githubLink:"https://github.com/amirudheenshareif/Data_Query_Dashboard",
+          siteLink:"https://dashboardassign.vercel.app/",
+          imgLink:"https://rngfefhpsfpbbwcrfhze.supabase.co/storage/v1/object/public/company-logo//dataQueryDashboardBg.png" 
+        },
         { name: 'Weather Tracker',
           githubLink:"https://github.com/amirudheenshareif/Dynamic-Weather-Tracker", 
           siteLink:"https://dynamic-weather-tracker.vercel.app/",
           imgLink:"https://rngfefhpsfpbbwcrfhze.supabase.co/storage/v1/object/public/company-logo//weather-app.png"
-        },
-        { 
-          name: 'Skill Swap (Under Development)',
-          githubLink:"",
-          siteLink:"",
-          imgLink:"https://placehold.co/200x200" 
         },
       ];
       console.log("Hi");
