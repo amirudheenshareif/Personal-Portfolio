@@ -24,7 +24,7 @@ const Hero = () => {
           <p>Focused on developing high performance React web apps that drive business growth.</p>
         </div>
         <div className="resume">
-          <a href="https://rngfefhpsfpbbwcrfhze.supabase.co/storage/v1/object/public/resumes//AMIRUDHEEN%20SHAREIF-CV%20(3)%20(1).pdf">
+          <a href="https://github.com/user-attachments/files/19591534/Amir-CV.1.pdf">
           <motion.button
             whileHover={{
               scale: 1.2, // Increases size on hover
