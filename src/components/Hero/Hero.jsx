@@ -1,7 +1,7 @@
 import React from 'react';
 import './Hero.css';
 import { motion } from 'framer-motion';
-import profile from '../../assets/hero-img.png'
+import profile from '../../assets/memoji-computer.png'
 import githubIcon from '../../assets/github-dark.svg'
 import linkedinIcon from '../../assets/linkedin-dark.svg'
 
@@ -55,6 +55,10 @@ const Hero = () => {
       </section>
       <div className="profile">
         <img src={profile} alt="Profile" />
+        <div className="availability">
+          <button>.</button>
+          <p>Available for new projects</p>
+        </div>
       </div>
     </div>
   );
