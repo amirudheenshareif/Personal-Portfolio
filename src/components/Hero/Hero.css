@@ -59,11 +59,33 @@
   } */
   .profile{
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
   }
   .profile img{
     width: 400px;
+  }
+  .availability{
+    display: flex;
+    justify-content: center;
+    gap: .5rem;
+    align-items: center;
+    margin-top: .5rem;
+    padding: 10px 5px;
+    background: linear-gradient(90deg, #E2E8F0, #EDF2F7);
+    border-radius: 10px;
+  }
+  
+  .availability button{
+    border-radius: 50%;
+    color: #48BB78;
+    background-color: #48BB78;
+    border: none;
+  }
+  .availability p {
+    color: #4A5568;
+    margin: 0;
   }
   @media (max-width: 768px) {
     .mainContainer {
