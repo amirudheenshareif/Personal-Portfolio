@@ -9,7 +9,7 @@
 body{
    font-family: "Poppins", serif;
    background: linear-gradient(135deg, #5A67D8,#38B2AC);
-   color: #1A202C;
+   color: #1A202C; 
    margin: 0;
    padding: 0;
    /* display: flex;
@@ -18,7 +18,7 @@ body{
    height: 100vh;
 }
 #root{
-    background: linear-gradient(135deg, #5A67D8,#38B2AC);
+    background: linear-gradient(135deg, #5A67D8,#38B2AC); 
     display: flex;
     flex-direction: column;
     justify-content: center;
