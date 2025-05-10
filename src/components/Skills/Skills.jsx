@@ -103,7 +103,7 @@ const Skills = () => {
         className={activeDiv === "versionControl" ? "active" : ""}
       >
         <i className="fas fa-code-branch"></i>
-        <span>Version Control</span>
+        <span>DevOps & Deployment</span>
       </motion.div>
 </div>
 
