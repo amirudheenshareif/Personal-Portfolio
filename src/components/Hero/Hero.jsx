@@ -16,7 +16,7 @@ const Hero = () => {
           <a href="https://github.com/amirudheenshareif">
             <img src={githubIcon}alt="GitHub Icon" />
           </a>
-          <a href="https://www.linkedin.com/in/amirudheen-shareif-k-585335256/">
+          <a href="https://www.linkedin.com/in/amirudheenshareif/">
             <img src={linkedinIcon} alt="LinkedIn Icon" />
           </a>
         </div>
@@ -24,7 +24,7 @@ const Hero = () => {
           <p>Focused on developing high performance React web apps that drive business growth.</p>
         </div>
         <div className="resume">
-          <a href="https://github.com/user-attachments/files/20126026/Amirudheen_Shareif_CV.pdf" download>
+          <a href="https://github.com/user-attachments/files/20137252/Amirudheen_Shareif_CV.pdf" download>
           <motion.button
             whileHover={{
               scale: 1.2, // Increases size on hover
