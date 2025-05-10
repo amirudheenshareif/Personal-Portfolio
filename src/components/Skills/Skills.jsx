@@ -24,17 +24,17 @@ const Skills = () => {
   ];
 
   const libraries = [
-    { skill: "Framer Motion", icon: "", width: "70%" },
-    { skill: "ShadCN", icon: "", width: "80%" },
-    { skill: "Tailwind CSS", icon: "", width: "80%" },
+    { skill: "Tailwind CSS", icon: "", width: "70%" },
+    { skill: "Redux", icon: "", width: "65%" },
     { skill: "Vite", icon: "", width: "75%" },
+    { skill: "Framer Motion", icon: "", width: "75%" },
   ];
   
   const versionControl = [
     { skill: "Git", icon: "fas fa-code-branch", width: "70%" },
     { skill: "GitHub", icon: "fab fa-github", width: "75%" },
-    { skill: "Branching", icon: "fas fa-tree", width: "75%" },
-    { skill: "Merging", icon: "fas fa-code-merge", width: "70%" },
+    { skill: "Vercel", icon: "fas fa-tree", width: "70%" },
+    { skill: "Docker", icon: "fas fa-code-merge", width: "40%" },
   ];
   
 
