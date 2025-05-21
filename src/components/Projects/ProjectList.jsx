@@ -8,13 +8,13 @@ export const ProjectList = () => {
         name: 'Job Portal App',
         githubLink:"https://github.com/amirudheenshareif/JobVerse",
         siteLink:"https://job-verse-dusky.vercel.app/",
-        imgLink:"https://rngfefhpsfpbbwcrfhze.supabase.co/storage/v1/object/public/company-logo//landing-page-imgpng.png" 
+        imgLink:"https://rngfefhpsfpbbwcrfhze.supabase.co/storage/v1/object/public/company-logo//jobverse-bg.webp" 
       },
       { 
         name: 'AI - Data Query Dashboard',
         githubLink:"https://github.com/amirudheenshareif/Data_Query_Dashboard",
         siteLink:"https://dashboardassign.vercel.app/",
-        imgLink:"https://rngfefhpsfpbbwcrfhze.supabase.co/storage/v1/object/public/company-logo//dataQueryDashboardBg.png" 
+        imgLink:"https://rngfefhpsfpbbwcrfhze.supabase.co/storage/v1/object/public/company-logo//askmetrics%20bg.webp" 
       },
       { name: 'WebWit',
         githubLink:"https://github.com/amirudheenshareif/WebWit-BlogApp", 
@@ -25,7 +25,7 @@ export const ProjectList = () => {
         name: 'Portfolio website',
         githubLink:"https://github.com/amirudheenshareif/Personal-Portfolio",
         siteLink:"https://amirudheenshareif.github.io/Personal-Portfolio/",
-        imgLink:"https://rngfefhpsfpbbwcrfhze.supabase.co/storage/v1/object/public/company-logo//Portfolio-bg.png" 
+        imgLink:"https://rngfefhpsfpbbwcrfhze.supabase.co/storage/v1/object/public/company-logo//Portfolio-bg.webp" 
       },
         
       ];
