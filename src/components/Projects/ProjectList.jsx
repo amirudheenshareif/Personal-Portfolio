@@ -18,7 +18,7 @@ export const ProjectList = () => {
       },
       { name: 'WebWit',
         githubLink:"https://github.com/amirudheenshareif/WebWit-BlogApp", 
-        siteLink:"https://web-wit-blog-app.vercel.app/https://dynamic-weather-tracker.vercel.app/",
+        siteLink:"https://web-wit-blog-app.vercel.app/",
         imgLink:"https://rngfefhpsfpbbwcrfhze.supabase.co/storage/v1/object/public/company-logo//web-wit-landing-page%20(1).webp"
       },
       { 
